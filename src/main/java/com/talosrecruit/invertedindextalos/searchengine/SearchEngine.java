@@ -1,4 +1,4 @@
-package com.talosrecruit.invertedindextalos.serachengine;
+package com.talosrecruit.invertedindextalos.searchengine;
 
 import com.talosrecruit.invertedindextalos.exceptions.TStringException;
 import com.talosrecruit.invertedindextalos.model.TIndex;
