@@ -22,7 +22,7 @@ public class App{
     }
     
     public static void main( String[] args ){
-
+        Logger logger = Logger.getLogger(App.class);
         String[] data = new String[]{   "A brilliant, festive study of JS Bach uses literature and painting to illuminate his 'dance-impregnated' music, writes Peter Conrad", 
                                         "Fatima Bhutto on Malala Yousafzai's fearless and still-controversial memoir", 
                                         "Grisham's sequel to A Time to Kill is a solid courtroom drama about racial prejudice marred by a flawless white hero, writes John O'Connell", 
@@ -41,9 +41,10 @@ public class App{
         String[] result = se.get("music");
         
         System.out.println(result.length);
-   
-        
         System.out.println(Arrays.toString(result)); 
+        
+        
+        logger.info("The search is finished!!!");
 
     }
 }
